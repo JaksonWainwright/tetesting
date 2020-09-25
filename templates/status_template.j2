@@ -3,13 +3,14 @@
         <title>ThousandEyes Testing Page</title>
     </head>
     <body>
-        <H1> Usage: </H1>
+    <H1> This page is to be used to simulate the intserv/4.0/health/checkdb page to test TE regex matching and threshold setting </H1>
+        <H2> Usage: </H2>
         <br>
         <b>- /get_proc_statuses    - GET {Return Proc Statuse, Mocking Prod Method} </b>
         <br>
         <b>- /update_proc_statuses  - GET {Update Proc Statuses. Values must be 1, or 0, and total of 7. 1 Indicates proc up. 0 Indicates down. Index indicates proc number}</b>
         <br>
-        <i>- - ex. https://tetesting.jakson.dev/update_proc_statuse?new_values=1101111   - To simulate proc 3 being down. Requires "new_values" argument</i>
+        <i>- - ex. https://tetesting.jakson.dev/update_proc_statuses?new_values=1101111   - To simulate proc 3 being down. Requires "new_values" argument</i>
     </body>
 
 </html>
